@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penghitung wr ml</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>~penghitung wr game~ (giv me:087778368806)</h1>
+        <form id="winRateForm">
+            <label for="jumlahPertandingan">Jumlah Pertandingan:</label>
+            <input type="number" id="jumlahPertandingan" required>
+
+            <label for="wrSaatIni">Win Rate Saat Ini (%):</label>
+            <input type="number" id="wrSaatIni" step="0.01" required>
+
+            <label for="wrTarget">Win Rate Target (%):</label>
+            <input type="number" id="wrTarget" step="0.01" required>
+
+            <button type="button" onclick="hitungKemenangan()">Hitung</button>
+        </form>
+
+        <div id="hasil">
+            <!-- Hasil perhitungan akan ditampilkan di sini -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
